@@ -1,5 +1,9 @@
+This is the first recipe file
+
 file '/etc/motd' do
   content : 'Welcome'
 end
 
 package 'httpd'
+
+
