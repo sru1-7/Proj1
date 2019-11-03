@@ -6,4 +6,5 @@ end
 
 package 'httpd'
 
+service httpd[:enable , :start]
 
